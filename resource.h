@@ -1,20 +1,20 @@
 #define PLUG_MFR "JasonMally"
-#define PLUG_NAME "Ugly Phaser"
+#define PLUG_NAME "First Synth"
 
-#define PLUG_CLASS_NAME DigitalDistortion
+#define PLUG_CLASS_NAME FirstSynth
 
 #define BUNDLE_MFR "JasonMally"
-#define BUNDLE_NAME "DigiDist"
+#define BUNDLE_NAME "First Synth"
 
-#define PLUG_ENTRY DigitalDistortion_Entry
-#define PLUG_FACTORY DigitalDistortion_Factory
-#define PLUG_VIEW_ENTRY DigitalDistortion_ViewEntry
+#define PLUG_ENTRY FirstSynth_Entry
+#define PLUG_FACTORY FirstSynth_Factory
+#define PLUG_VIEW_ENTRY FirstSynth_ViewEntry
 
-#define PLUG_ENTRY_STR "DigitalDistortion_Entry"
-#define PLUG_VIEW_ENTRY_STR "DigitalDistortion_ViewEntry"
+#define PLUG_ENTRY_STR "FirstSynth_Entry"
+#define PLUG_VIEW_ENTRY_STR "FirstSynth_ViewEntry"
 
-#define VIEW_CLASS DigitalDistortion_View
-#define VIEW_CLASS_STR "DigitalDistortion_View"
+#define VIEW_CLASS FirstSynth_View
+#define VIEW_CLASS_STR "FirstSynth_View"
 
 // Format        0xMAJR.MN.BG - in HEX! so version 10.1.5 would be 0x000A0105
 #define PLUG_VER 0x00010000
@@ -24,7 +24,7 @@
 
 // http://service.steinberg.de/databases/plugin.nsf/plugIn?openForm
 // 4 chars, single quotes. At least one capital letter
-#define PLUG_UNIQUE_ID 'Digd'
+#define PLUG_UNIQUE_ID 'Fsts'
 // make sure this is not the same as BUNDLE_MFR
 #define PLUG_MFR_ID 'Mlly'
 
@@ -37,7 +37,7 @@
 #endif
 
 #define PLUG_MFR_PT "JasonMally\nJasonMally\nAcme"
-#define PLUG_NAME_PT "DigitalDistortion\nIPEF"
+#define PLUG_NAME_PT "FirstSynth\nIPEF"
 #define PLUG_TYPE_PT "Effect"
 #define PLUG_DOES_AUDIOSUITE 1
 
