@@ -1,20 +1,20 @@
 #define PLUG_MFR "JasonMally"
-#define PLUG_NAME "First Synth"
+#define PLUG_NAME "MIDIKey"
 
-#define PLUG_CLASS_NAME FirstSynth
+#define PLUG_CLASS_NAME MIDIKey
 
 #define BUNDLE_MFR "JasonMally"
-#define BUNDLE_NAME "First Synth"
+#define BUNDLE_NAME "MIDIKey"
 
-#define PLUG_ENTRY FirstSynth_Entry
-#define PLUG_FACTORY FirstSynth_Factory
-#define PLUG_VIEW_ENTRY FirstSynth_ViewEntry
+#define PLUG_ENTRY MIDIKey_Entry
+#define PLUG_FACTORY MIDIKey_Factory
+#define PLUG_VIEW_ENTRY MIDIKey_ViewEntry
 
-#define PLUG_ENTRY_STR "FirstSynth_Entry"
-#define PLUG_VIEW_ENTRY_STR "FirstSynth_ViewEntry"
+#define PLUG_ENTRY_STR "MIDIKey_Entry"
+#define PLUG_VIEW_ENTRY_STR "MIDIKey_ViewEntry"
 
-#define VIEW_CLASS FirstSynth_View
-#define VIEW_CLASS_STR "FirstSynth_View"
+#define VIEW_CLASS MIDIKey_View
+#define VIEW_CLASS_STR "MIDIKey_View"
 
 // Format        0xMAJR.MN.BG - in HEX! so version 10.1.5 would be 0x000A0105
 #define PLUG_VER 0x00010000
@@ -24,9 +24,9 @@
 
 // http://service.steinberg.de/databases/plugin.nsf/plugIn?openForm
 // 4 chars, single quotes. At least one capital letter
-#define PLUG_UNIQUE_ID 'Fsts'
+#define PLUG_UNIQUE_ID 'MDKi'
 // make sure this is not the same as BUNDLE_MFR
-#define PLUG_MFR_ID 'Mlly'
+#define PLUG_MFR_ID 'JMal'
 
 // ProTools stuff
 
@@ -37,7 +37,7 @@
 #endif
 
 #define PLUG_MFR_PT "JasonMally\nJasonMally\nAcme"
-#define PLUG_NAME_PT "FirstSynth\nIPEF"
+#define PLUG_NAME_PT "MIDIKey\nIPEF"
 #define PLUG_TYPE_PT "Effect"
 #define PLUG_DOES_AUDIOSUITE 1
 
@@ -46,13 +46,13 @@
 instrument determined by PLUG _IS _INST
 */
 
-#define PLUG_CHANNEL_IO "1-1 2-2"
+#define PLUG_CHANNEL_IO "0-1 0-2"
 
 #define PLUG_LATENCY 0
-#define PLUG_IS_INST 0
+#define PLUG_IS_INST 1
 
 // if this is 0 RTAS can't get tempo info
-#define PLUG_DOES_MIDI 0
+#define PLUG_DOES_MIDI 1
 
 #define PLUG_DOES_STATE_CHUNKS 0
 
